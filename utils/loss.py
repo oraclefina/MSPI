@@ -27,7 +27,6 @@ class SalLoss(nn.Module):
         kl_loss = kldiv(inputs.exp(), targets)  
         cc_loss = cc(inputs.exp(), targets)
         sim_loss = similarity(inputs.exp(), targets)
-        # bhattacharyya_loss = bhattacharyya_distance(inputs.exp(), targets2)
 
         if fixations is None:
             loss = kl_loss-cc_loss 
