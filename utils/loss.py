@@ -3,18 +3,6 @@ from .compute_saliency_metrics import *
 from timm.utils import AverageMeter
 import torch.nn.functional as F
 
-def bhattacharyya_distance(x, target):
-    if target is None:
-        return 0
-    #B,H,W
-    BC = torch.sum((x * target) ** 0.5, dim=(1,2))
-    distance = -torch.log(BC)
-    # print(distance)
-
-    return distance.mean()
-
-
-
 class SalLoss(nn.Module):
     def __init__(self):
         super().__init__()
