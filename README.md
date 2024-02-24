@@ -1,5 +1,5 @@
 # MSPI for AVSP
-This project provides the code for **'Audio-Visual Saliency Prediction with Multisensory Perception and Integration'**, Image and Vision Computing, 2024. [Paper link]().
+This project provides the code for **'Audio-Visual Saliency Prediction with Multisensory Perception and Integration'**, Image and Vision Computing, 2024. [Paper link](https://www.sciencedirect.com/science/article/pii/S0262885624000581).
 
 ## Download dataset
 1. [AVAD](https://sites.google.com/site/minxiongkuo/home)
@@ -82,6 +82,15 @@ The [MATLAB code](https://github.com/cvzoya/saliency/tree/master/code_forMetrics
 ## Citation
 If you think this project is helpful, please feel free to cite our paper:
 ```
-
+@article{XIE2024104955,
+    title = {Audio-visual saliency prediction with multisensory perception and integration},
+    journal = {Image and Vision Computing},
+    pages = {104955},
+    year = {2024},
+    issn = {0262-8856},
+    doi = {https://doi.org/10.1016/j.imavis.2024.104955},
+    url = {https://www.sciencedirect.com/science/article/pii/S0262885624000581},
+    author = {Jiawei Xie and Zhi Liu and Gongyang Li and Yingjie Song}
+}
 ```
         
